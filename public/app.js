@@ -10,6 +10,21 @@ var addCat = function(catName, catFavFood, catImg){
     appendElements(name, favFood, img);
 };
 
+// var quoteArticle =
+// quoteArticle.classList.add('quote');
+
+// var blockquote = document.createElement('blockquote');
+// blockquote.textContent = 'The perfect is the enemy of the good';
+//
+// var cite = document.createElement('cite');
+// cite.textContent = 'callum';
+//
+// blockquote.appendChild(cite);
+// quoteArticle.appendChild(blockquote);
+//
+// var quotes = document.querySelector('#quotes');
+// quotes.appendChild(quoteArticle);
+
 addCat("Fraz", "Whiskers", "https://www.pexels.com/search/cat/")
 
 var createCatList = function(){
